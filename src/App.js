@@ -1,25 +1,72 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { createContext, useReducer } from 'react'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import Contact from './components/Contact'
+import Login from './components/Login'
+import About from './components/About'
+import Signup from './components/Signup'
+import ContactForm from './components/Contactform'
+import Logout from './components/Logout'
+import { Switch } from 'react-router-dom'
+import {initialstate , reducer} from '../src/reducer/Usereducer'
+import {Route,Routes} from 'react-router-dom';
+import Buyers from './components/Buyers'
+export const usercontext = createContext();
 
-function App() {
+const Routingg=()=>{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <Switch>
+  <Route exact path ="/">
+    <Home/>
+  </Route>
+  <Route path ="/login">
+      <Login/>
+  </Route>
+  <Route path ="/signup">
+    <Signup/>
+  </Route>
+  <Route path ="/contactdg">
+    <ContactForm/>
+  </Route>
+  <Route path ="/about" >
+    <About/>
+  </Route>
+  <Route path ="/contact" >
+    <Contact/>
+  </Route>
+  <Route path ="/logout">
+    <Logout/>
+  </Route>
+  <Route path ="/buyers">
+    <Buyers/>
+  </Route>
+  </Switch>
+  )
 }
+  
+const App = () => {
+  const [state , dispatch] = useReducer(reducer , initialstate);
+  return (
+    
+    <div>
+    
+    <usercontext.Provider value = {{state ,dispatch}}>
+      <Navbar/>
+      
+      <Routingg />
+    </usercontext.Provider>
+   
+    
 
-export default App;
+
+    
+    </div>
+  )
+  
+  }
+  
+
+  
+
+
+export default App
