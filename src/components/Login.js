@@ -13,7 +13,8 @@ const Login = () => {
         e.preventDefault();
         const res = await fetch('https://api-08sb.onrender.com/signin', {
             method : "POST",
-            withCredentials: true,
+            credentials: 'include',
+            mode:'same-origin',
             headers : {
                 "Content-Type": "application/json"
             },
