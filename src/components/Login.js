@@ -27,7 +27,7 @@ const Login = () => {
             window.alert("invalid creditiional")
         }
         else{
-            console.log(res.cookie);
+            console.log(document.cookie);
             dispatch({type:"USER", payload:true})
             
             window.alert("login successfully");
