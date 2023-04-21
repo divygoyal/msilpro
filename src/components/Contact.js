@@ -9,6 +9,7 @@ const Contact = () => {
         try {
             const res = await fetch('https://api-08sb.onrender.com/getdata', {
                 method: "GET",
+                credentials: "include",
                 headers: {
                    
                     "Content-Type": "application/json"
