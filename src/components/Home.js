@@ -86,7 +86,7 @@ const Home = () => {
     </div>
 
  <div className="newsheading">
-        <h1 style={{ fontFamily: 'Outfit' }}>Trends</h1>
+        <h1 style={{ fontFamily: 'Outfit' , marginTop:"20px" }}>Trends</h1>
       </div>
 
       {/* <p>Start editing to see some magic happen :)</p> */}
