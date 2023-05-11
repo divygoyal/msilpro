@@ -77,14 +77,14 @@ const Home = () => {
         </div>
         <div className="textcontainer">
           {/* <h2 style={{fontSize:"60px" , padding:"0" , margin:"0" , fontFamily :"Wix Madefor Display" , letterSpacing: "10px"}}>DIVY</h2> */}
-          <h1 style={{ fontSize: '70px', padding: '0', marginBottom: '10px' }}>
+          <h1 style={{fontFamily: 'Racing Sans One', fontSize: '70px', padding: '0', marginBottom: '10px' }}>
             DRIVE WITH THRILL{' '}
           </h1>
         </div>
       </div>
 
       <div className="herocontainer" style={{ marginTop: '100px' }}>
-        <h1 style={{ fontSize: '70px', padding: '0', marginBottom: '50px' }}>
+        <h1 style={{ fontFamily: 'Racing Sans One',fontSize: '70px', padding: '0', marginBottom: '50px' }}>
           MEET OUR NEW HEROES !
         </h1>
         <div className="carherocontainer">
