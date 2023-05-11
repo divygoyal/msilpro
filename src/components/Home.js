@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/home.css'
-/
+
 const Home = () => {
   const [persondata, setpersondata] = useState({
     name: 'Welcomes you',
