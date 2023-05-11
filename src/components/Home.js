@@ -1,39 +1,42 @@
 import React, { useEffect, useState } from 'react';
-import jimnycarpic from "./final_jimmy_.png" 
 import '../styles/home.css'
 
 const Home = () => {
-  const [persondata, setpersondata] = useState({ name: 'Welcomes you', headline: "Welcomes you" });
-////////////
+  const [persondata, setpersondata] = useState({
+    name: 'Welcomes you',
+    headline: 'Welcomes you',
+  });
+  ////////////
   const [cont, setcont] = useState([]);
   const fetchData = async () => {
-      const apikey = '4d20f35e59e04130c1c13a8810a3dfde';
-      const url =
-        'https://gnews.io/api/v4/search?q=suzuki&&country=in&lang=en&&max=10&apikey=' +
-        apikey;
+    const apikey = '4d20f35e59e04130c1c13a8810a3dfde';
+    const url =
+      'https://gnews.io/api/v4/search?q=suzuki&&country=in&lang=en&&max=10&apikey=' +
+      apikey;
 
-      fetch(url)
-        .then(function (response) {
-          return response.json();
-        })
-        .then(function (data) {
-          const articles = data.articles;
-          const p = 5;
-          for (let i = 0; i < p; i++) {
-            const obj = {
-              topic: articles[i]['title'],
-              summary: articles[i]['description'],
-              imgurl: articles[i]['image'],
-              readmore: articles[i]['url'],
-            };
+    fetch(url)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        const articles = data.articles;
+        const p = 3;
+        for (let i = 0; i < p; i++) {
+          const obj = {
+            topic: articles[i]['title'],
+            summary: articles[i]['description'],
+            imgurl: articles[i]['image'],
+            readmore: articles[i]['url'],
+            sourcename: articles[i]['source'].name,
+          };
 
-            setcont((prevArray) => [...prevArray, obj]);
-            console.log('Title: ' + articles[i]['title']);
+          setcont((prevArray) => [...prevArray, obj]);
+          console.log('Title: ' + articles[i]['title']);
 
-            console.log('Description: ' + articles[i]['description']);
-          }
-        });
-    };
+          console.log('Description: ' + articles[i]['description']);
+        }
+      });
+  };
   ////////////
   const helper = async () => {
     try {
@@ -42,7 +45,7 @@ const Home = () => {
         headers: {
           'Content-Type': 'application/json',
         },
-        credentials: "include"
+        credentials: 'include',
       });
 
       const data = await res.json();
@@ -63,70 +66,105 @@ const Home = () => {
 
   useEffect(() => {
     helper();
-     fetchData();
+    fetchData();
   }, []);
 
   return (
     <>
-       <div className="dashboards">
-      
-
-      <div className="grid-containers">
-        <div className="grid-items">
-          <img src={jimnycarpic} alt="BigCo Inc. logo" />
+      <div className="exit">
+        <div className="imgcontainer">
+          <img src="https://i.postimg.cc/59HZZS5z/JIMNYY.png" alt="" />
         </div>
+        <div className="textcontainer">
+          {/* <h2 style={{fontSize:"60px" , padding:"0" , margin:"0" , fontFamily :"Wix Madefor Display" , letterSpacing: "10px"}}>DIVY</h2> */}
+          <h1 style={{ fontSize: '70px', padding: '0', marginBottom: '10px' }}>
+            DRIVE WITH THRILL{' '}
+          </h1>
+        </div>
+      </div>
 
-        <div className="grid-itemnews nameheadings grid-containers">
-          <div className="textfornames">
-            <h2>maruti suzuki</h2>
-            <h1 id="typing-headings">{persondata.name}</h1>
+      <div className="herocontainer" style={{ marginTop: '100px' }}>
+        <h1 style={{ fontSize: '70px', padding: '0', marginBottom: '50px' }}>
+          MEET OUR NEW HEROES !
+        </h1>
+        <div className="carherocontainer">
+          <div className="cardetail">
+            <div className="heroimgcontainer">
+              <img
+                src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/FRONX/9243/1673943130006/front-left-side-47.jpg?tr=w-456"
+                alt=""
+                target="https://www.nexaexperience.com/fronx"
+              />
+            </div>
+
+            <h2 style={{ fontFamily: 'Racing Sans One', fontSize: '40px' }}>
+              Fronx
+            </h2>
+          </div>
+          <div className="cardetail">
+            <div className="heroimgcontainer">
+              <img
+                src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Jimny/6182/1673507280721/front-left-side-47.jpg?tr=w-456"
+                alt=""
+                target="https://www.nexaexperience.com/fronx"
+              />
+            </div>
+
+            <h2 style={{ fontFamily: 'Racing Sans One', fontSize: '40px' }}>
+              Jimny
+            </h2>
+          </div>
+          <div className="cardetail">
+            <div className="heroimgcontainer">
+              <img
+                src="https://prathamnyaynews.com/wp-content/uploads/2023/04/Maruti-Suzuki-Engage.jpg"
+                alt=""
+                target="https://www.nexaexperience.com/fronx"
+              />
+            </div>
+
+            <h2 style={{ fontFamily: 'Racing Sans One', fontSize: '40px' }}>
+              Engage
+            </h2>
           </div>
         </div>
       </div>
-    </div>
 
- <div className="newsheading">
-        <h1 style={{ fontFamily: 'Outfit' , marginTop:"20px" }}>Trends</h1>
+      <div className="newscontainer">
+        <h1 style={{ fontFamily: 'Racing Sans One', fontSize: '60px' }}>
+          PICKS FOR YOU
+        </h1>
+        {cont.map((item, index) => (
+          <div className="mainnewscontainer">
+            <div className="articlecontainer">
+              <h2 style={{ textAlign: 'left', fontFamily: 'Racing Sans One' }}>
+                {item.sourcename}
+              </h2>
+              <h3
+                style={{
+                  fontFamily: 'Outfit',
+                  fontSize: '30px',
+                  fontWeight: '50',
+                }}
+              >
+                {item.summary}
+              </h3>
+            </div>
+            <div className="newsimgcontainer">
+              <img src={item.imgurl} alt="" />
+            </div>
+          </div>
+        ))}
       </div>
 
-      {/* <p>Start editing to see some magic happen :)</p> */}
-
-      {cont.map((item, index) => (
-        <div
-          style={{
-            width: '70%',
-            backgroundColor: 'white',
-            alignItem: 'center',
-            margin: 'auto',
-            marginBottom: '6px',
-            display: 'flex',
-          }}
-        >
-          <div class="imageContainer">
-            <img class="image" src={item.imgurl} alt="" />
-          </div>
-
-          <div
-            style={{
-              margin: '20px',
-              padding: '5px',
-              paddingTop: '2px',
-              marginTop: '4px',
-              width: '60%',
-              alignItem: 'center',
-              justifyContent: 'center',
-            }}
-          >
-            <h3 className="head">{item.topic}</h3>
-            <p1 className="sum">{item.summary}</p1>
-            <br />
-            <br />
-            <p3>
-              <a href={item.readmore}>read more</a>
-            </p3>
-          </div>
-        </div>
-      ))}
+      <div className="kmcontainer">
+        <h1 style={{ fontSize: '70px', padding: '0', marginBottom: '10px' }}>
+          HOW FAR HAVE YOU DRIVEN ?
+        </h1>
+        <h1 className="km" style={{ fontFamily: 'Orbitron' }}>
+          8428 Km
+        </h1>
+      </div>
     </>
   );
 };
