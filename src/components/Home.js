@@ -157,6 +157,15 @@ const Home = () => {
         ))}
       </div>
 
+
+      <div className="mapscontiner">
+      <h1 style={{fontFamily :"Racing Sans One" , fontSize:"60px" , fontWeight :"400"}}>FIND US ON MAP </h1>
+     
+      <div className ="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.420256819998!2d77.06071957443979!3d28.497001090224327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d196b71b25ce7%3A0xa2c70ccdf3d18c30!2sMaruti%20Suzuki%20India%20Limited!5e0!3m2!1sen!2sin!4v1684134167445!5m2!1sen!2sin"  ></iframe>
+      </div>
+    </div>
+
       <div className="kmcontainer">
         <h1 style={{ fontSize: '70px', padding: '0', marginBottom: '10px' }}>
           HOW FAR HAVE YOU DRIVEN ?
