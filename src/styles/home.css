@@ -125,3 +125,26 @@
 
   
 }
+
+.map{
+  height :400px;
+  width: 80%;
+  margin: auto;
+  
+  border-radius: 20px;
+  
+  padding: 10px;
+}
+
+.map iframe{
+  height: 95%;
+  width: 95%;
+  border: 0;
+  border-radius: 10px;
+  
+}
+.mapscontiner{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
