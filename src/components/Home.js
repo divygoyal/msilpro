@@ -143,7 +143,7 @@ const Home = () => {
               <h3
                 style={{
                   fontFamily: 'Outfit',
-                  fontSize: '30px',
+                  fontSize: '25px',
                   fontWeight: '50',
                 }}
               >
