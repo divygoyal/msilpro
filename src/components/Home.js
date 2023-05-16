@@ -166,6 +166,25 @@ const Home = () => {
       </div>
     </div>
 
+
+    	<div className ="vrcontainer">
+
+  <div className="vrdiagram">
+    <model-viewer src ="https://cdn.glitch.global/8b10a7eb-1950-462e-8d15-8d576804ef6e/oculus_rift.glb?v=1684214405777"   auto-rotate
+    camera-controls></model-viewer>
+  </div>
+    
+  
+
+  <div className = "vrtext">
+    
+    <h1  style ={{fontSize :"40px"  , fontWeight :"400" , fontFamily:"Racing Sans One"}}>EXPERIENCE THE REALITY</h1>
+    <h2 className='plgm' style ={{fontSize :"60px"  , fontWeight :"400" , fontFamily:"Racing Sans One"}}> <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjLiNjLjPn-AhVNslYBHUAqAdoQFnoECAkQAQ&url=https%3A%2F%2Fnexaverse.nexaexperience.com%2F&usg=AOvVaw1PrDvRvTS4MG2KcAW2SwWO" target='bla'>CLICK HERE </a></h2>
+   
+    </div>
+</div>
+
+
       <div className="kmcontainer">
         <h1 style={{ fontSize: '70px', padding: '0', marginBottom: '10px' }}>
           HOW FAR HAVE YOU DRIVEN ?
