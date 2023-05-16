@@ -46,7 +46,7 @@
 }
 
 .kmcontainer{
-  margin-top: 100px;
+  margin-top: 30px;
 }
 .kmcontainer h1{
   text-align: center;
@@ -162,8 +162,6 @@ model-viewer {
 }
 
 .vrcontainer {
-    margin-top: 50px;
-    margin-bottom: 50px;
     font-family: "Racing Sans One";
   width: 100%;
   display: flex;
