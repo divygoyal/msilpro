@@ -44,7 +44,7 @@ return (
 
        <div  className = "testbox" >
      
-      <h1>DISPLAY SECTION</h1>
+      <h1 style={{color :"white" , fontWeight:"bolder"}}>DISPLAY SECTION</h1>
      
     </div>
     <div className="extrabox"></div>
