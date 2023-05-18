@@ -20,7 +20,7 @@ const Buyers = () => {
     'Alto': 'https://images.hindustantimes.com/auto/auto-images/Maruti/Alto%20800/exterior_marutisuzuki-alto_front-right-side_630x420.jpg',
     'Brezza': 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Brezza/8679/1675859019982/front-left-side-47.jpg',
     'Swift': 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Swift-Dzire/7664/1675859508504/front-left-side-47.jpg',
-    'Ertiga': 'https://s3-ap-southeast-1.amazonaws.com/staticin.izmocars.com/toolkit/IN/2022/22marutisuzuki/22marutisuzukiertiga/22marutisuzukiertiga_pixGallery/_gallerypix/marutisuzuki_ertiga_concept.jpg',
+    'Ertiga': 'https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Ertiga/8711/1675861057213/front-left-side-47.jpg',
     'Baleno': 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Baleno/8674/1675858584706/front-left-side-47.jpg',
     'Dzire': 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Swift-Dzire/7664/1675859508504/front-left-side-47.jpg',
     'Wagonr': 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Wagon-R/8835/1675922419979/front-left-side-47.jpg',
