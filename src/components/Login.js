@@ -48,7 +48,21 @@ const Login = () => {
                     </div>
 
                     <div class="signin-form">
-                        <h2 class="form-title">Sign up</h2>
+                       <div className="signuptext" style={{
+  width: 'fit-content',
+  background: 'skyblue',
+  padding: '3px',
+  marginBottom: '30px',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+}}>
+  <h2 className="form-title" style={{
+    padding: '3px',
+    margin: '0',
+    color: '#fff',
+    fontWeight: '600',
+  }}>Let's Roll</h2>
+</div>
                         <form method="POST" class="register-form" id="login-form">
                             <div class="form-group">
                                 <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
@@ -69,14 +83,7 @@ const Login = () => {
                                 />
                             </div>
                         </form>
-                        <div class="social-login">
-                            <span class="social-label">Or login with</span>
-                            <ul class="socials">
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
-                            </ul>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
