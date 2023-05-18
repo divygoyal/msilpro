@@ -36,9 +36,20 @@ const Buyers = () => {
 
 
 return (
-  <><div style={{ textAlign: 'center',fontFamily:"Outfit" }}>
-  <h1>Proud Marutians</h1>
-</div>
+  <>
+  
+  <div className="testboxcontainer">
+      <div className="extrabox"></div>
+       <div className="extrabox"></div>
+
+       <div  className = "testbox" >
+     
+      <h1>DISPLAY SECTION</h1>
+     
+    </div>
+    <div className="extrabox"></div>
+    <div className="extrabox"></div>
+    </div>
     
     <div className="grid-container">
       {latestUsers.map(user => {
