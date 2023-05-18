@@ -1,3 +1,43 @@
+.testbox{
+  width: fit-content;
+  
+  background: #678;
+  color: white;
+  font-family: Outfit;
+  
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 36px;
+  
+  padding-top: 0;
+
+
+  
+}
+.testbox h1{
+  font-size: 36px;
+  font-weight: bolder;
+  margin-top: 0px;
+  line-height: 1.7;
+  margin-bottom: 0px;
+}
+.extrabox{
+  width: 20px;
+  background: #678;
+}
+
+.testboxcontainer{
+  width: 450px;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  height: fit-content;
+  transform: skew(-20deg);
+  margin: auto;
+}
+
+
 .grid-container {
     display: flex;
     flex-direction: row;
