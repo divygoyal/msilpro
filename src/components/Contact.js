@@ -75,7 +75,7 @@ const Contact = () => {
              
                 <div className="contact_info_item d-flex justify-content-start align-items-center" style={{ boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)',
       border: '1px solid #eee', padding: '20px' ,width :"310px",margin:'10px',borderRadius:'20px'}} >
-                    <img src="https://img.icons8.com/material-outlined/24/null/phone.png" alt="phone" />
+                    <img width="24" height="24" src="https://img.icons8.com/color/24/000000/phone.png" alt="phone"/>
                     <div className="contact_info_content" style={{ padding: '10px' }}>
                         <div className="contact_info_title">
                             Phone
@@ -87,7 +87,7 @@ const Contact = () => {
                 </div>
                 <div className="contact_info_item d-flex justify-content-start align-items-center" style={{ boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)',
       border: '1px solid #eee', padding: '20px' ,width :"310px",margin:'10px',borderRadius:'20px'}} >
-                    <img src="https://img.icons8.com/external-those-icons-fill-those-icons/24/null/external-Gmail-social-media-those-icons-fill-those-icons.png" alt="phone" />
+                    <img width="24" height="24" src="https://img.icons8.com/fluency/24/gmail-new.png" alt="gmail-new"/>
                     <div className="contact_info_content" style={{ padding: '10px' }}>
                         <div className="contact_info_title">
                             Gmail
@@ -99,7 +99,7 @@ const Contact = () => {
                 </div>
                 <div className="contact_info_item d-flex justify-content-start align-items-center" style={{ boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)',
       border: '1px solid #eee', padding: '20px' ,width :"310px",margin:'10px',borderRadius:'20px'}} >
-                    <img src="https://img.icons8.com/ios-glyphs/30/null/linkedin.png" alt="phone" />
+                   <img width="24" height="24" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>
                     <div className="contact_info_content" style={{ padding: '10px' }}>
                         <div className="contact_info_title">
                             Linkedin
