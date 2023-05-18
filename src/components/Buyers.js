@@ -17,21 +17,21 @@ const Buyers = () => {
   }, []);
 
   const carImages = {
-    'Alto': 'https://media.zigcdn.com/media/model/2023/Feb/alto-800_600x400.jpg',
-    'Brezza': 'https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/107807/brezza-left-front-three-quarter.jpeg?isig=0&q=75',
-    'Swift': 'https://media.zigcdn.com/media/model/2023/Feb/swift_600x400.jpg',
-    'Ertiga': 'https://media.zigcdn.com/media/model/2023/Feb/ertiga_600x400.jpg',
-    'Baleno': 'https://media.zigcdn.com/media/model/2023/Feb/baleno_600x400.jpg',
-    'Dzire': 'https://media.zigcdn.com/media/model/2023/Feb/swift_600x400.jpg',
-    'Wagonr': 'https://media.zigcdn.com/media/model/2023/Feb/wagon-r_600x400.jpg',
-    'Eeco': 'https://media.zigcdn.com/media/model/2023/Feb/eeco_600x400.jpg',
-    'S-Presso': 'https://media.zigcdn.com/media/model/2023/Feb/s-presso_600x400.jpg',
-    'XL6': 'https://media.zigcdn.com/media/model/2023/Feb/xl-6_600x400.jpg',
-    'Ignis': 'https://nexaprod1.azureedge.net/-/media/feature/nexawebsitecarbrand/ignis/ignis/ignis-ex-highlights.webp?modified=20220629061148',
-    'Ciaz': 'https://cdni.autocarindia.com/utils/imageresizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/CiazModelImage.jpg',
-    'Grand Vitara': 'https://www.drivespark.com/img/1200x60x675/2022/07/maruti-suzuki-grand-vitara-1659116267.jpg',
-    'Jimny': 'https://media.zigcdn.com/media/model/2023/Jan/maruti_jimny_600x400.png',
-    'Fronx': 'https://media.zigcdn.com/media/model/2023/Jan/fronx_600x400.jpg',
+    'Alto': 'https://images.hindustantimes.com/auto/auto-images/Maruti/Alto%20800/exterior_marutisuzuki-alto_front-right-side_630x420.jpg',
+    'Brezza': 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Brezza/8679/1675859019982/front-left-side-47.jpg',
+    'Swift': 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Swift-Dzire/7664/1675859508504/front-left-side-47.jpg',
+    'Ertiga': 'https://s3-ap-southeast-1.amazonaws.com/staticin.izmocars.com/toolkit/IN/2022/22marutisuzuki/22marutisuzukiertiga/22marutisuzukiertiga_pixGallery/_gallerypix/marutisuzuki_ertiga_concept.jpg',
+    'Baleno': 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Baleno/8674/1675858584706/front-left-side-47.jpg',
+    'Dzire': 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Swift-Dzire/7664/1675859508504/front-left-side-47.jpg',
+    'Wagonr': 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Wagon-R/8835/1675922419979/front-left-side-47.jpg',
+    'Eeco': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkD7aNYxJlphJFiKG5EBxYb9Q2SgpRJHQWUCyHOCIKEIJMUKsUoWdupy3jvHyEFxDQ8WNPbJLP05E&usqp=CAU&ec=48665701',
+    'S-Presso': 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/S-Presso/9218/1675862009313/front-left-side-47.jpg',
+    'XL6': 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/XL6/8955/1675923460600/front-left-side-47.jpg',
+    'Ignis': 'https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Ignis/7584/1583132645318/front-left-side-47.jpg',
+    'Ciaz': 'https://nexaprod1.azureedge.net/-/media/feature/nexaworldarticle/atvsmt_thumbnail.webp?modified=20220119091504',
+    'Grand Vitara': 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Grand-Vitara/4082/1664252008581/front-left-side-47.jpg',
+    'Jimny': 'https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Jimny/6182/1673507280721/front-left-side-47.jpg?tr=w-456',
+    'Fronx': 'https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/FRONX/9243/1673943130006/front-left-side-47.jpg?tr=w-456',
   };
 
 
