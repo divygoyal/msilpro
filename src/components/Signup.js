@@ -55,7 +55,7 @@ const Signup = () => {
                         <div style={{
     alignItems: "center",
     textAlign: "center",
-    fontWeight: "bold"
+    fontWeight: "bold",
     fontFamily: 'Racing Sans One'}}
 >
         <h2 className="form-title" style={{
