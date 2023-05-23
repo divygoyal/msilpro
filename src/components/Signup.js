@@ -52,7 +52,17 @@ const Signup = () => {
             <div class="container">
                 <div class="signup-content">
                     <div class="signup-form">
-                        <h2 class="form-title">Sign up</h2>
+                        <div style="
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Racing Sans One';
+">
+        <h2 class="form-title" style="
+    font-family: 'Racing Sans One';
+    COLOR: blue;
+">SIGN UP</h2>
+    </div>
                         <form method="POST" class="register-form" id="register-form">
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
@@ -130,7 +140,8 @@ const Signup = () => {
                         </form>
                     </div>
                     <div class="signup-image">
-                        <figure><img src={logo} alt="sing up image"/></figure>
+                        <model-viewer alt="Rocket by dg" src="https://cdn.glitch.global/8b10a7eb-1950-462e-8d15-8d576804ef6e/cosmonaut_on_a_rocket.glb?v=1684842602892"  auto-rotate
+    camera-controls ></model-viewer>
                         <a href="#" class="signup-image-link" onClick={()=>{
                             history.push("/Login");
                         }}>I am already member</a>
