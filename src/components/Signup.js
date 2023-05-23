@@ -52,16 +52,16 @@ const Signup = () => {
             <div class="container">
                 <div class="signup-content">
                     <div class="signup-form">
-                        <div style="
-    align-items: center;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Racing Sans One';
-">
-        <h2 class="form-title" style="
-    font-family: 'Racing Sans One';
-    COLOR: blue;
-">SIGN UP</h2>
+                        <div style={{
+    alignItems: "center",
+    textAlign: "center",
+    fontWeight: "bold"
+    fontFamily: 'Racing Sans One'}}
+>
+        <h2 className="form-title" style={{
+    fontFamily: 'Racing Sans One',
+    color: 'blue'}}
+>SIGN UP</h2>
     </div>
                         <form method="POST" class="register-form" id="register-form">
                             <div class="form-group">
