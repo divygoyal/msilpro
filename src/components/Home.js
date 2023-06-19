@@ -170,7 +170,7 @@ const Home = () => {
     	<div className ="vrcontainer">
 
   <div className="vrdiagram">
-    <model-viewer src ="https://cdn.glitch.global/8b10a7eb-1950-462e-8d15-8d576804ef6e/oculus_rift.glb?v=1684214405777"   auto-rotate
+    <model-viewer src ="https://crudblobs.blob.core.windows.net/models/oculus-rift-cv1.glb"   auto-rotate
     camera-controls></model-viewer>
   </div>
     
