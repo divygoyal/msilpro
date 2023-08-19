@@ -59,7 +59,7 @@ const Login = () => {
           </div>
           
           
-          <button type="submit" name="signin" id="signin" class="form-submit" value="Log in" style={{fontFamily:"Outfit"}}
+          <button id="submitbtn" type="submit" name="signin"  class="form-submit" value="Log in" style={{fontFamily:"Outfit"}}
                                     onClick={helper}>Login</button>
 
           <p>Don't have an account? <a style={{fontWeight:"600" , color:'white',textDecoration:"none"}}href="/"> Register</a></p>
