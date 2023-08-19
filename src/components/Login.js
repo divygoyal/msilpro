@@ -3,6 +3,7 @@ import logo from "../images/signin-image.jpg"
 import "../styles/Signup.css"
 import { useHistory } from 'react-router-dom'
 import { usercontext } from '../App'
+import '../styles/App.css'
 const Login = () => {
     const {state , dispatch} = useContext(usercontext)
     const history = useHistory();
