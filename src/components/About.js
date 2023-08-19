@@ -94,7 +94,7 @@ const About = () => {
                   </svg>
                   Website
                 </h6>
-                <span className="text-secondary">https://bootdey.com</span>
+                <span className="text-secondary">https://msildg.onrender.com</span>
               </li>
               <li className="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                 <h6 className="mb-0">
@@ -114,7 +114,7 @@ const About = () => {
                   </svg>
                   Github
                 </h6>
-                <span className="text-secondary">bootdey</span>
+                <span className="text-secondary">msil</span>
               </li>
               <li className="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                 <h6 className="mb-0">
@@ -134,7 +134,7 @@ const About = () => {
                   </svg>
                   Twitter
                 </h6>
-                <span className="text-secondary">@bootdey</span>
+                <span className="text-secondary">@msil</span>
               </li>
               <li className="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                 <h6 className="mb-0">
@@ -163,7 +163,7 @@ const About = () => {
                   </svg>
                   Instagram
                 </h6>
-                <span className="text-secondary">bootdey</span>
+                <span className="text-secondary">msil</span>
               </li>
               <li className="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                 <h6 className="mb-0">
@@ -183,7 +183,7 @@ const About = () => {
                   </svg>
                   Facebook
                 </h6>
-                <span className="text-secondary">bootdey</span>
+                <span className="text-secondary">msil</span>
               </li>
             </ul>
           </div>
