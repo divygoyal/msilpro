@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 
-import "../styles/Signup.css"
+// import "../styles/Signup.css"
 import logo from "../images/signup-image.jpg"
 
 import { useHistory } from 'react-router-dom'
+import '../App.css'
 const Signup = () => {
     const history = useHistory();
    const  [user , setuser] = useState({
@@ -123,11 +124,11 @@ const Signup = () => {
           
           
           
-          <button style={{fontFamily:"Outfit"}} type="submit" name="signup" id="signup" class="form-submit" value="Register" onClick={postdata}>Login</button>
+          <button style={{fontFamily:"Outfit"}} type="submit" name="signup" value="Register" onClick={postdata}>Login</button>
 
-          <p>Have an account? onClick={()=>{
+          <p onClick={()=>{
                             history.push("/Login");
-                        }} <a style={{fontWeight:"600" , color:'white',textDecoration:"none"}}> Login</a></p>
+                        }} >Have an account?<a style={{fontWeight:"600" , color:'white',textDecoration:"none"}}> Login</a></p>
        
       </div>
       </form>
