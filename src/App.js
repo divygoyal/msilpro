@@ -12,6 +12,7 @@ import {initialstate , reducer} from '../src/reducer/Usereducer'
 import {Route,Routes} from 'react-router-dom';
 import Buyers from './components/Buyers'
 export const usercontext = createContext();
+import "./App.css";
 
 const Routingg=()=>{
   return (
