@@ -71,6 +71,9 @@
     top: -5px;
 } */
 .emailbox{
+    ::placeholder{
+    color:white;
+    }
     width: 250px;
     /* border: 2PX solid black; */
     border-bottom: 2px solid white;
