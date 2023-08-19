@@ -1,3 +1,125 @@
 #body{
     font-size: 15px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.loginform{
+    background-image: url('https://nexaprod1.azureedge.net/-/media/feature/nexawebsitecarbrand/rocky/page_data/jimny-og-1200x628-webp.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: aquamarine; */
+    font-family: Poppins;
+}
+.loginformboxx{
+    color: white;
+    padding: 10px 20px;
+    align-items: center;
+    background: transparent;
+    backdrop-filter:20%;
+    display: flex;
+    border: 2px solid rgb(255, 255 ,255,0.5);
+    box-shadow:10px;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+    
+
+}
+#submitbtn{
+    padding: 10px 20px;
+    padding-bottom: 30px;
+    margin: 15px 10px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid white;
+    background: transparent;
+
+}
+.logintext{
+    padding-bottom: 30px;
+    color: white;
+    font-size: 30px;
+}
+.loginformboxx input{
+    
+    height: 50px;
+    font-size: 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    /* border: 1px solid black; */
+    color: white;
+    font-weight: 600;
+    margin-left: 0;
+}
+/* .loginformboxx input:focus~label, 
+.loginformboxx input:valid~label{
+    top: -5px;
+} */
+.emailbox{
+    width: 250px;
+    /* border: 2PX solid black; */
+    border-bottom: 2px solid white;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+}
+.emailbox label{
+    transform: translateY(-50%);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    pointer-events: none;
+    transition: 0.5sec;
+
+}
+.emailbox svg{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.passwordbox{
+    border-bottom: 2px solid white;
+    width: 250px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.passwordbox svg{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.passwordbox label{
+    transform: translateY(-50%);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transition: 0.5s;
+    pointer-events: none;
+
+}
+.loginformboxx input:focus~label , 
+.input-box input:valid~label{
+    top: -5px;
+    transition: 0.5s;
+} 
+.loginformboxx p{
+    font-size: 15px;
+}
